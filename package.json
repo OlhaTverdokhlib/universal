@@ -1,21 +1,21 @@
 {
-  "name": "parcel-75",
+  "name": "universal",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://OlhaTverdokhlib.github.io/parcel-75",
+  "homepage": "https://OlhaTverdokhlib.github.io/universal",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-75/"
+    "build": "parcel build src/*.html --public-url /universal/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OlhaTverdokhlib/parcel-75.git"
+    "url": "git+https://github.com/OlhaTverdokhlib/universal.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OlhaTverdokhlib/parcel-75/issues"
+    "url": "https://github.com/OlhaTverdokhlib/universal/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
