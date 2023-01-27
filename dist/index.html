@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page title</title>
+  
+  <link rel="stylesheet" href="/index.b07a87f3.css">
+  <script src="/index.975ef6c8.js" defer=""></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#">1</a></li>
+                <li><a href="#">12</a></li>
+                <li><a href="#">123</a></li>
+                <li><a href="#">1234</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+  <main>
+    <section class="hero">
+    <div class="container">
+        <!-- це використовуємо будь де -->
+        <h1 class="section-title section-title--orange">Lorem lorem</h1>
+
+        <!-- це лише в блокові з класом hero -->
+        <h1 class="hero__title">Lorem lorem</h1>
+        <!--  -->
+
+        <!-- робимо блок social-links елементом блоку hero -->
+        <ul class="social-links hero__socials">
+            <li class="social-links__item">
+                <a href="#" class="social-links__link">
+                    <!-- <img src="./" class="social-links__link-img" alt="dad"> -->
+                </a>
+            </li>
+            <li class="social-links__item">
+                <a href="#" class="social-links__link">Посилання 2</a>
+            </li>
+            <li class="social-links__item">
+                <a href="#" class="social-links__link">Посилання 3</a>
+            </li>
+            <li class="social-links__item">
+                <a href="#" class="social-links__link">Посилання 4</a>
+            </li>
+        </ul>
+
+        <!-- до social-links додаємо мод-р  -->
+        <ul class="social-links social-links--vertical">
+            <li class="social-links__item">
+                <a href="#" class="social-links__link">Посилання 1</a>
+            </li>
+            <li class="social-links__item">
+                <a href="#" class="social-links__link">Посилання 2</a>
+            </li>
+            <li class="social-links__item">
+                <a href="#" class="social-links__link">Посилання 3</a>
+            </li>
+            <li class="social-links__item">
+                <a href="#" class="social-links__link">Посилання 4</a>
+            </li>
+        </ul>
+
+
+        <button type="button" class="btn">Кнопка</button>
+    </div>
+</section>
+
+
+    <section class="slider-section" data-slider="team-slider">
+    <div class="container">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-inner">Slide 1</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-inner">Slide 2</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-inner">Slide 3</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-inner">Slide 11</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-inner">Slide 22</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-inner">Slide 33</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-inner">Slide 111</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-inner">Slide 222</div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-inner">Slide 333</div>
+                </div>
+            </div>
+
+            <ul class="swiper-pagination"></ul>
+
+            <div class="swiper-btns">
+                <button type="button" class="swiper-btn swiper-button-prev"></button>
+                <button type="button" class="swiper-btn swiper-button-next"></button>
+            </div>
+
+
+        </div>
+
+        <input type="text" class="js-inputmask">
+        <input type="text" class="js-inputmask">
+        <input type="text" class="js-inputmask">
+
+        <input type="text" class="js-inputmask-01">
+        <input type="text" class="js-inputmask-01">
+        <input type="text" class="js-inputmask-01">
+
+
+        <select name="testselect" class="js-select">
+            <option value="1">option1</option>
+            <option value="11">option11</option>
+            <option value="111">option111</option>
+            <option value="1111">option1111</option>
+            <option value="test">test</option>
+            <option value="test1">test1</option>
+            <option value="car">car</option>
+            <option value="car1">car1</option>
+        </select>
+        <select name="testselect" class="js-select">
+            <option value="1">option1</option>
+            <option value="11">option11</option>
+            <option value="111">option111</option>
+            <option value="1111">option1111</option>
+        </select>
+        <select name="testselect" class="js-select">
+            <option value="1">option1</option>
+            <option value="11">option11</option>
+            <option value="111">option111</option>
+            <option value="1111">option1111</option>
+        </select>
+    </div> 
+
+ 
+
+
+   
+</section>
+    <section class="section">
+      <div class="container">
+        <h2 data-aos="fade-up">Заголовок</h2>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2 data-aos="fade-down">Заголовок</h2>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2 data-aos="fade-right">Заголовок</h2>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <h2 data-aos="fade-left">Заголовок</h2>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+        <!-- <include src="../partials/blocks/social-links.html"></include> -->
+        <address data-aos="fade-up">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto non omnis excepturi! Quasi, sequi sint tempora repellendus inventore consequuntur molestias itaque autem praesentium eveniet totam perspiciatis molestiae nihil dicta. Ea.
+            Sed, facilis provident beatae saepe alias dolorum perferendis ipsam labore aut ratione obcaecati expedita quasi repellat iste voluptates sapiente? Non rem possimus eum ut tempore ullam, aut similique laborum reprehenderit!
+            Recusandae amet autem perspiciatis eligendi? Sapiente, aliquid quaerat. Deserunt perferendis amet sit dignissimos quasi iste laborum, architecto numquam, consequuntur aliquid ex! Consequatur sint numquam cum quidem odit provident reprehenderit esse.
+            Accusantium neque sed labore blanditiis eum vitae nihil assumenda officia odit in maxime maiores non animi dolore, culpa quibusdam, quo sit cum accusamus rerum quaerat. Neque distinctio facilis expedita fugit.
+            Consectetur molestias enim, quod numquam atque velit ducimus rerum, at in omnis accusantium tenetur voluptates iste doloribus mollitia odit, accusamus inventore modi dicta fugiat voluptatem repellat sed? Aut, et optio?
+            Repellat reiciendis sint eveniet recusandae aut voluptates quam corporis dolor laudantium, quasi expedita dolorum id est minus sunt iste at mollitia numquam, sit ducimus. Incidunt ipsa rem ipsum id quae.
+            Debitis recusandae enim, sint dicta maxime a facere vitae quis aut officiis repellat, ea iste. Amet, tempora eum. Voluptas sequi accusantium temporibus nostrum dignissimos! Nulla vel natus dolores illum delectus.
+            Officia eaque provident doloremque quasi aliquid, amet modi laboriosam magni debitis reprehenderit ea rem, saepe recusandae harum, corporis enim nobis sapiente sunt dolores nisi porro officiis. Sapiente aliquid ea modi?
+            Recusandae maiores quisquam rem debitis non est corrupti pariatur tempore quod obcaecati iusto fugiat omnis saepe perferendis excepturi, esse illum inventore temporibus facilis, dicta atque! Incidunt quis maxime ullam libero!
+            Nisi suscipit debitis illo voluptatum, itaque fuga, perferendis nostrum quo reiciendis, nihil totam obcaecati asperiores eveniet dolorem unde? Placeat cum reiciendis aperiam dignissimos cupiditate quae impedit fugiat commodi enim sint.
+        </address>
+    </div>
+</footer>
+</body>
+
+<script src="/index.f9da1647.js"></script>
+<script src="/index.73954780.js"></script>
+<script src="/index.79839a57.js"></script>
+
+</html>
